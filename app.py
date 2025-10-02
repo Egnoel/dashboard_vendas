@@ -6,7 +6,7 @@ from graficos import grafico_map_estado, grafico_rec_mensal, grafico_rec_estado,
 
 st.set_page_config(layout='wide')
 
-st.title("Dashboard de Vendas :shopping_trolley:")
+st.title("Dashboard de Vendas 🛒")
 st.sidebar.title("Filtro de Vendedores")
 
 filtro_vendedor = st.sidebar.multiselect(
